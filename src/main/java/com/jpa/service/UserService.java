@@ -44,7 +44,9 @@ public class UserService {
                 savedUser.getId(),
                 savedUser.getName(),
                 savedUser.getEmail(),
-                savedUser.getAddress()
+                savedUser.getAddress(),
+                savedUser.getCreatedAt(),
+                savedUser.getModifiedAt()
         );
     }
 
